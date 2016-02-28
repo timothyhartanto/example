@@ -41,21 +41,21 @@ public class Main {
 		By2 = B[1] + B[3];
 		
 		if(A.equals(B))
-			return "Bertumpukan";
+			return "Inside";
 		//Lepas
 		if((Bx1 >= Ax2) || (Bx2 <= Ax1) || (By1 >= Ay2) || (By2 <= Ay1)){
-			return "Lepas";
+			return "Differ";
 		}
 		//Bertumpukan
 		else if((Ax1 >= Bx1) && (Ay1 >= By1) && (Ax2 <= Bx2) && (Ay2 <= By2)){
-			return "Bertumpukan";
+			return "Inside";
 		}
 		else if((Bx1 >= Ax1) && (By1 >= Ay1) && (Bx2 <= Ax2) && (By2 <= Ay2)){
-			return "Bertumpukan";
+			return "Inside";
 		}
 		//Berisian
 		else{
-			return "Berisian";
+			return "Cross";
 		}
 		
 	}
