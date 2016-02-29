@@ -3,6 +3,7 @@ public class Main {
 		int[] A = {13, 11, 15, 12, 14, 15, 13, 11, 14};
 		System.out.println(value(A));
 		
+		//format input for classification problem is an array of length 4 (for simplicity)
 		int[] arrA = {0, 5, 10, 5};
 		int[] arrB = {3, 3, 5, 6};
 		System.out.println(classification(arrA, arrB));
